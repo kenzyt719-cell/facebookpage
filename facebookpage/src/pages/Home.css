@@ -96,3 +96,8 @@ gap:5px;
     background: #e4e4e4;
   
 }
+.middle{
+  margin-left: 28%;
+  display: flex;
+  gap: 30px;
+}

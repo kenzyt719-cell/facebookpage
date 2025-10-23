@@ -4,6 +4,7 @@ import Nav from '../components/Nav';
 import Button from '../components/Button'; 
 import Imgone from '../assets/watcch.png';
 import Imgtwo from '../assets/recuxui.png';
+import Middlephotodiv from '../components/Middlephotodiv';
 
 
 
@@ -86,13 +87,22 @@ const Home = () => {
 <h1 className='uxuitext'>UI / UX Designers & Developers</h1>
 
         </div>
+        
    
       
 
       </div>
       </div> 
+      <div className='middle'>
+     <Middlephotodiv/>
+     <Middlephotodiv/>
 
-     
+     <Middlephotodiv/>
+     <Middlephotodiv/>
+
+
+      </div>
+
 
       
 
