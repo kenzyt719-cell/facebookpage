@@ -1,5 +1,5 @@
 .nav{
-background: #4b1e1e;
+background: #ffffff;
   z-index: 99;
     justify-content: center;
     width: 100%;
@@ -7,4 +7,34 @@ background: #4b1e1e;
  position: fixed;
 height: 72px;
 flex-shrink: 0;
+display: flex;
+
+}
+.face{
+
+    margin-top: -10px;
+    width: 40px;
+height: 41.555px;
+}
+h1,h2,p{
+   padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+   }
+   body{
+
+    margin: 0;
+    background: #e4e4e4;
+  
+}
+.home{
+    width: 28px;
+height: 28px;
+}
+.allhomes{
+    gap:60px;
+    margin-top: 20px;
+    display: flex;
 }
