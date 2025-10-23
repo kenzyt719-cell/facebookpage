@@ -1,4 +1,5 @@
 .leftboxhome{
+  margin-top: 80px;
   width: 345px;
   height: 1658px;
   flex-shrink: 0;
@@ -9,12 +10,12 @@
   position: fixed; /* keeps it on the left side */
   top: 0;
   left: 0;
-  background: #5e1414;
+  background: #ffffff;
   
 }
 .watchtext{
       margin-left: 20px;
-    margin-top: 7px;
+    /* margin-top: 7px; */
     color: #000;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 32px;
@@ -23,12 +24,14 @@ font-weight: 700;
 line-height: normal;
 }
 .imgwqatch{
+  margin-top: 20px;
     display: flex;
 }
 .watchiomgsize{
  
-    width: 73px;
-    height: 67px;
+
+    width: 31px;
+    height: 27px;
 }
 
 h1,h2,p{
@@ -37,4 +40,53 @@ h1,h2,p{
 }
 a{
     text-decoration: none;
+   }
+   .topmarg{
+    margin-top: 20px;
+   }
+   .titetext{
+    color: #000;
+font-family: Arial;
+
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+   }
+   .sealltext{
+
+    margin: auto;
+    color: #1877F2;
+font-family: Arial;
+font-size: 13px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+   }
+   .texttt{
+        display: flex
+;
+
+        gap: 211px;
+   }
+
+
+   .recimg{
+
+   }
+   .uxuitext{
+    margin: auto;
+    color: #000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+   }
+     .texttt2{
+      margin-top: 10px;
+        display: flex
+;
+
+gap:5px;
    }

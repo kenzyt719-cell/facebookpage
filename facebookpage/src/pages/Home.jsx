@@ -3,6 +3,7 @@ import "./Home.css";
 import Nav from '../components/Nav'; 
 import Button from '../components/Button'; 
 import Imgone from '../assets/watcch.png';
+import Imgtwo from '../assets/recuxui.png';
 
 
 
@@ -22,7 +23,7 @@ const Home = () => {
      </div>
 
 
-       <div className='imgwqatch'>
+       <div className='imgwqatch topmarg'>
 
   <img className='watchiomgsize' src={Imgone} alt="Watch" />
         <h1 className="watchtext">Watch</h1>
@@ -45,7 +46,53 @@ const Home = () => {
   <img className='watchiomgsize' src={Imgone} alt="Watch" />
         <h1 className="watchtext">Watch</h1>
      </div>
+      <div>
+        <div className='texttt'>
+            <h1 className='titetext'> title</h1>
+            <h1 className='sealltext'> see all</h1>
+        </div>
+        <div className='texttt2'>
+  <img className='recimg' src={Imgtwo} alt="uxui" />
+<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
+
+        </div>
+          <div className='texttt2'>
+  <img className='recimg' src={Imgtwo} alt="uxui" />
+<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
+
+        </div>
+          <div className='texttt2'>
+  <img className='recimg' src={Imgtwo} alt="uxui" />
+<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
+
+        </div>
+          <div className='texttt2'>
+  <img className='recimg' src={Imgtwo} alt="uxui" />
+<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
+
+        </div>
+          <div className='texttt2'>
+  <img className='recimg' src={Imgtwo} alt="uxui" />
+<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
+
+        </div>
+          <div className='texttt2'>
+  <img className='recimg' src={Imgtwo} alt="uxui" />
+<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
+
+        </div>
+          <div className='texttt2'>
+  <img className='recimg' src={Imgtwo} alt="uxui" />
+<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
+
+        </div>
+   
+      
+
+      </div>
       </div> 
+
+     
 
       
 

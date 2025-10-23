@@ -1,6 +1,10 @@
 .nav{
 background: #4b1e1e;
-width: 1440px;
+  z-index: 99;
+    justify-content: center;
+    width: 100%;
+ display: flex;
+ position: fixed;
 height: 72px;
 flex-shrink: 0;
 }
