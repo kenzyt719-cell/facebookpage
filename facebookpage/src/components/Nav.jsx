@@ -5,18 +5,22 @@ import Imghome from '../assets/homenav.png';
 
 const Nav = () => {
   return (
-    <nav className="nav">
-      <div className="nav-container">
-        <img className="logo" src={Imgface} alt="logo" />
+    <header className="header">
+      <div className="header-container">
+        <div className="header-left">
+          <img className="logo" src={Imgface} alt="Facebook logo" />
+        </div>
 
-        <div className="nav-links">
+        <div className="header-center">
           <img className="nav-icon" src={Imghome} alt="Home" />
           <img className="nav-icon" src={Imghome} alt="Home" />
           <img className="nav-icon" src={Imghome} alt="Home" />
           <img className="nav-icon" src={Imghome} alt="Home" />
         </div>
+
+        <div className="header-right"></div>
       </div>
-    </nav>
+    </header>
   );
 };
 

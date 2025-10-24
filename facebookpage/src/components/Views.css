@@ -1,6 +1,6 @@
 .mian{
     width: 710px;
-height: 503px;
+height: 523px;
 flex-shrink: 0;
 
 border-radius: 7px;
@@ -16,6 +16,7 @@ line-height: normal;
 }
 .divdisplay{
 
+    padding-top: 20px;
     padding-left: 20px;
     /* justify-content: center; */
     gap: 20px;

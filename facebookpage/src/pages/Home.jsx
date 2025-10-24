@@ -80,7 +80,7 @@ const Home = () => {
 
 
 
-      <div >
+      <div className='middlep'>
         <div className='middlesdipaly'>
 
      <Middlephotodiv/>
@@ -97,6 +97,9 @@ const Home = () => {
 
 
        <Views/>
+       <Views/>
+       <Views/>
+
         
       </div>
   <div >

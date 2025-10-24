@@ -1,7 +1,6 @@
 .leftboxhome{
   margin-top: 80px;
-  width: 345px;
-  height: 1658px;
+
   flex-shrink: 0;
   background-color: #f5f5f5; /* light gray background */
   border-right: 1px solid #ccc;
@@ -64,12 +63,19 @@ line-height: normal;
    }
    .texttt{
         display: flex
+        
 ;
 
+    padding-top: 40px;
         gap: 211px;
    }
 
+.middlep{
 
+    margin-right: 20px;
+    margin-left: 20px;
+
+}
 
    .uxuitext{
     margin: auto;
@@ -97,7 +103,7 @@ gap:5px;
 .middlesdipaly{
 /* margin-left: 28%; */
   display: flex;
-
+gap: 10px;
 
     padding-top: 80px;
 }
