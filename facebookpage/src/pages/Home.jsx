@@ -92,8 +92,8 @@ const Home = () => {
         </div>
 
 
-       {/* <Views/>
-           <Views/> */}
+       <Views/>
+           <Views/>
       </div>
 
 <div>
