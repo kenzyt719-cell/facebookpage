@@ -1,35 +1,23 @@
-import React, { Component } from 'react';
-import "./Nav.css"
+import React from 'react';
+import './Nav.css';
 import Imgface from '../assets/logoface.png';
 import Imghome from '../assets/homenav.png';
 
-
 const Nav = () => {
-    return ( 
-      <div className='nav'>
-        
+  return (
+    <nav className="nav">
+      <div className="nav-container">
+        <img className="logo" src={Imgface} alt="logo" />
 
-        
-        <div className='allhomes'>
-        <img className='face' src={Imgface} alt="face" />
-
-        <img className='home' src={Imghome} alt="home" />
-        <img className='home' src={Imghome} alt="home" />
-        <img className='home' src={Imghome} alt="home" />
-        <img className='home' src={Imghome} alt="home" />
-
+        <div className="nav-links">
+          <img className="nav-icon" src={Imghome} alt="Home" />
+          <img className="nav-icon" src={Imghome} alt="Home" />
+          <img className="nav-icon" src={Imghome} alt="Home" />
+          <img className="nav-icon" src={Imghome} alt="Home" />
         </div>
-      
-        
-
-
       </div>
+    </nav>
+  );
+};
 
-
-
-
-        
-     );
-}
- 
 export default Nav;

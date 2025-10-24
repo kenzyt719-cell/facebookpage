@@ -3,6 +3,9 @@ import "./Home.css";
 import Nav from '../components/Nav'; 
 import Whatsonyourmind from '../components/Whatsonyourmind'; 
 import Views from '../components/Views'; 
+import Viewsagain from '../components/Viewsagain'; 
+import Theguy from '../components/Theguy'; 
+
 
 
 import Watch from '../components/Watch'; 
@@ -20,8 +23,8 @@ const Home = () => {
         
     <div>
 
-
-      <Nav />
+  <Nav/>
+      
 
       <div className='threedivs'>
 
@@ -93,12 +96,21 @@ const Home = () => {
 
 
        <Views/>
-           <Views/>
+        
       </div>
+  <div >
+   <Viewsagain   />
+   <div>
+    <Theguy/>
+    <Theguy/>
+    <div className='toppp' >
+   <Viewsagain/>
 
-<div>
+    </div>
+    
 
-</div>
+   </div>
+  </div>
       
 
 
