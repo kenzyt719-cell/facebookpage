@@ -5,6 +5,7 @@ import Whatsonyourmind from '../components/Whatsonyourmind';
 import Views from '../components/Views'; 
 import Viewsagain from '../components/Viewsagain'; 
 import Theguy from '../components/Theguy'; 
+import Last from '../components/Last'; 
 
 
 
@@ -107,7 +108,14 @@ const Home = () => {
    <Viewsagain/>
 
     </div>
+    <Last/>
+    <Last/>
+    <Last/>
     
+    <Last/>
+    <Last/>
+    <Last/>
+  
 
    </div>
   </div>

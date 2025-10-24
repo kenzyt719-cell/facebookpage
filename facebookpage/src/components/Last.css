@@ -1,0 +1,34 @@
+.hhh1{
+color: #000;
+font-family: Arial;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.hhh2{
+    color: #000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hhh3{
+    color: #1877F2;
+font-family:Arial, Helvetica, sans-serif;
+font-size: 10px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.displayyy{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.lastdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
