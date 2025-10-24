@@ -1,0 +1,26 @@
+
+.watchtext{
+      margin-left: 20px;
+    /* margin-top: 7px; */
+    color: #000;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.imgwqatch{
+  margin-top: 20px;
+    display: flex;
+}
+.watchiomgsize{
+ 
+
+    width: 31px;
+    height: 27px;
+}
+
+h1,h2,p{
+   padding: 0;
+    margin: 0;
+}

@@ -7,11 +7,10 @@
   border-right: 1px solid #ccc;
   padding: 20px;
   box-sizing: border-box;
-  position: fixed; /* keeps it on the left side */
+  /* position: fixed;  */
   top: 0;
   left: 0;
   background: #ffffff;
-  
 }
 .watchtext{
       margin-left: 20px;
@@ -71,9 +70,7 @@ line-height: normal;
    }
 
 
-   .recimg{
 
-   }
    .uxuitext{
     margin: auto;
     color: #000;
@@ -96,10 +93,17 @@ gap:5px;
     background: #e4e4e4;
   
 }
-.middle{
-  margin-left: 28%;
-  display: flex;
-  gap: 30px;
 
-    padding-top: 100px;
+.middlesdipaly{
+/* margin-left: 28%; */
+  display: flex;
+
+
+    padding-top: 80px;
+}
+.left{
+  display: flex;
+}
+.threedivs{
+  display: flex;
 }

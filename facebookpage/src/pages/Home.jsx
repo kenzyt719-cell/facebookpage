@@ -1,22 +1,34 @@
 import React from 'react';
 import "./Home.css";
 import Nav from '../components/Nav'; 
-import Watch from '../components/Watch'; 
+import Whatsonyourmind from '../components/Whatsonyourmind'; 
+import Views from '../components/Views'; 
 
-import Button from '../components/Button'; 
+
+import Watch from '../components/Watch'; 
 import Imgone from '../assets/watcch.png';
+import Button from '../components/Button'; 
 import Imgtwo from '../assets/recuxui.png';
 import Middlephotodiv from '../components/Middlephotodiv';
-
-
+import Uxui from '../components/Uxui'; 
 
 
 
 const Home = () => {
   return (
+   
+        
     <div>
+
+
       <Nav />
-      <div className='leftboxhome' >
+
+      <div className='threedivs'>
+
+   
+         <div className='leftboxhome'>
+
+      <div  >
 
      <Button/>
     
@@ -37,58 +49,56 @@ const Home = () => {
             <h1 className='titetext'> title</h1>
             <h1 className='sealltext'> see all</h1>
         </div>
-        <div className='texttt2'>
-  <img className='recimg' src={Imgtwo} alt="uxui" />
-<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
-
-        </div>
-          <div className='texttt2'>
-  <img className='recimg' src={Imgtwo} alt="uxui" />
-<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
-
-        </div>
-          <div className='texttt2'>
-  <img className='recimg' src={Imgtwo} alt="uxui" />
-<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
-
-        </div>
-          <div className='texttt2'>
-  <img className='recimg' src={Imgtwo} alt="uxui" />
-<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
-
-        </div>
-          <div className='texttt2'>
-  <img className='recimg' src={Imgtwo} alt="uxui" />
-<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
-
-        </div>
-          <div className='texttt2'>
-  <img className='recimg' src={Imgtwo} alt="uxui" />
-<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
-
-        </div>
-          <div className='texttt2'>
-  <img className='recimg' src={Imgtwo} alt="uxui" />
-<h1 className='uxuitext'>UI / UX Designers & Developers</h1>
-
-        </div>
+        <Uxui/>
+        <Uxui/>
+         <Uxui/>
+         <Uxui/>
+         <Uxui/>
+         <Uxui/>
+        
+        
+          
+        
+         
         
    
       
 
       </div>
       </div> 
-      <div className='middle'>
-     <Middlephotodiv/>
-     <Middlephotodiv/>
-
-     <Middlephotodiv/>
-     <Middlephotodiv/>
 
 
+
+    
       </div>
 
 
+
+
+
+      <div >
+        <div className='middlesdipaly'>
+
+     <Middlephotodiv/>
+     <Middlephotodiv/>
+
+     <Middlephotodiv/>
+     <Middlephotodiv/>
+
+
+        </div>
+        <div>
+          <Whatsonyourmind/>
+        </div>
+
+
+       {/* <Views/>
+           <Views/> */}
+      </div>
+
+<div>
+
+</div>
       
 
 
@@ -101,7 +111,7 @@ const Home = () => {
 
 
 
-
+   </div>
 
 
 
